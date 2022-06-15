@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(186, 169, 169);
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input[type="text"] {
+    width: 400px;
+    height: 35px;
+    outline: none;
+}
+
+form button {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    transform: rotateX(deg);
+}
+
+.form-btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: 10px;
+    border: 1px solid white;
+    height: 30px;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.item li{
+    flex: 1;
+   
+}
+.btn, .checkBtn {
+    height: 30px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.anim {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.animation {
+    transform: translateY(8rem) rotateZ(20deg);
+   opacity: 0;
+}
+
+select {
+    --webkit: none;
+    margin-top: 50px;
+}
